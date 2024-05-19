@@ -17,7 +17,6 @@ public abstract class CatalogItem {
     @Column(name = "page_count")
     private int pageCount;
 
-    // Constructors, getters, and setters
     public CatalogItem() {}
 
     public CatalogItem(String isbn, String title, int publicationYear, int pageCount) {
